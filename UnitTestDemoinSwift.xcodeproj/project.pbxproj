@@ -15,6 +15,7 @@
 		608F2F7D2593448600636536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608F2F7B2593448600636536 /* LaunchScreen.storyboard */; };
 		608F2F882593448600636536 /* UnitTestDemoinSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F2F872593448600636536 /* UnitTestDemoinSwiftTests.swift */; };
 		608F2F932593448600636536 /* UnitTestDemoinSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F2F922593448600636536 /* UnitTestDemoinSwiftUITests.swift */; };
+		608F2FA42593451A00636536 /* Pockeman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608F2FA32593451A00636536 /* Pockeman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		608F2F8E2593448600636536 /* UnitTestDemoinSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoinSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		608F2F922593448600636536 /* UnitTestDemoinSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestDemoinSwiftUITests.swift; sourceTree = "<group>"; };
 		608F2F942593448600636536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608F2FA32593451A00636536 /* Pockeman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pockeman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				608F2F702593448500636536 /* AppDelegate.swift */,
 				608F2F722593448500636536 /* SceneDelegate.swift */,
 				608F2F742593448500636536 /* ViewController.swift */,
+				608F2FA32593451A00636536 /* Pockeman.swift */,
 				608F2F762593448500636536 /* Main.storyboard */,
 				608F2F792593448600636536 /* Assets.xcassets */,
 				608F2F7B2593448600636536 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				608F2F752593448500636536 /* ViewController.swift in Sources */,
 				608F2F712593448500636536 /* AppDelegate.swift in Sources */,
 				608F2F732593448500636536 /* SceneDelegate.swift in Sources */,
+				608F2FA42593451A00636536 /* Pockeman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

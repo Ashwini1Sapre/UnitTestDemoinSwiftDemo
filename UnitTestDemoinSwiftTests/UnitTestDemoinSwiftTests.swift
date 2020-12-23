@@ -9,25 +9,61 @@ import XCTest
 @testable import UnitTestDemoinSwift
 
 class UnitTestDemoinSwiftTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    var squarial: Pockeman!
+    var pycyduck: Pockeman!
+    var chorandor: Pockeman!
+    
+    override func setUp() {
+        squarial = Pockeman(type: .water, attchType: .fire)
+       
+        chorandor = Pockeman(type: .fire, attchType: .fire)
+        pycyduck = Pockeman(type: .water, attchType: .water)
+        
+        
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    override func tearDown() {
+        squarial = nil
+        pycyduck = nil
+        chorandor = nil
     }
+    
+    func testwaterpockemandamagetoFirePockaman(){
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+     //   squarial.attack(enemy: chorandor)
+
+      //  squarial.attack(enemy: pycyduck)
+
+//
+      //  print(chorandor.health)
+     //   print(pycyduck.health)
+        
+        
+        chorandor.attack(enemy: squarial)
+        chorandor.attack(enemy: pycyduck)
+        
+        
+        
+        print(squarial.health)
+        print(pycyduck.health)
+        
+        
+        
+        XCTAssertTrue(squarial.health < pycyduck.health)
+
+    
+
+       // XCTAssertTrue(chorandor.health < pycyduck.health)
+       
     }
+    
+    
+    
+    
+    
+    
+  
 
 }
